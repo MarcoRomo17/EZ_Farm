@@ -8,24 +8,57 @@
 <body>
     <div style="background-color: aquamarine;">
 
+<div id='agregar' style="visibility: hidden;" >  <form action="">
+            <label for="Nombre">¿Qué es la cosecha?</label>
+            <input type="text" name="Nombre">
 
-        <form action="">
-            <label for="Nombre"></label>
-            <input type="text">
-            <label for="Cultivado"></label>       
-            <input type="text">
-            <label for="Almacenado"></label>
+            <label for="Cultivado">¿Cuánto se cosechó?</label>       
+            <input type="number">
+
+            <label for="Almacenado">Lugar de almacenamineto</label>
+            <input type="number" name="Almacenado">
+
+            <label for="Granja" name="Granja">¿A que granja pertenece?</label>
             <input type="text">
 
-            <label for="Granja a la que pertenece"></label>
-            <input type="text">
+            <label for="Semillas">Número de semillas</label>
+            <input type="number" name="Semillas">
 
-            <label for="Semillas"></label>
-            <input type="text">
-S
-        </form>
+        </form></div>
+      
     
+<div id='actualiza' style="visibility: hidden;">
+
+    <label for="">Ingresa el nombre de la cosecha que quieres actualizar</label>
+    <input type="text" name="queCos">
+
+    <h1>Aspectos que puedes actualizar/cambiar</h1>
+
+    <form action="">
+        <label for="Nombre">¿Qué es la cosecha?</label>
+        <input type="text" name="Nombre">
     
+        <label for="Cultivado">¿Cuánto se cosechó?</label>       
+        <input type="number">
+    
+        <label for="Almacenado">Lugar de almacenamineto</label>
+        <input type="number" name="Almacenado">
+    
+        <label for="Granja" name="Granja">¿A que granja pertenece?</label>
+        <input type="text">
+    
+        <label for="Semillas">Número de semillas</label>
+        <input type="number" name="Semillas">
+    
+    </form>
+    
+
+</div>
+
+<div id='borra' style="visibility: hidden;">
+    <label for="">Ingresa el nombre de la cosecha que quieres borrar</label>
+    <input type="text">
+</div>
     </div>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <body>
     <div style="background-color: aquamarine;">
 
-
+<div id='agregar' style="visibility: hidden;"></div>
         <form action="">
             <label for="Nombre">Nombre o forma de indentificar al vehiculo</label>
             <input type="text" name="nombre">
@@ -27,7 +27,36 @@
 
         </form>
     
+    <div id='actualiza' style="visibility: hidden;">
     
+        <label for="queAnimal">Ingresa el nombre de la herraminta que quieres actualizar</label>
+        <input type="text">
+        <h1>Aspectos que puedes actualizar/cambiar</h1>
+    
+        <form action="">
+            <label for="Nombre">Nombre o forma de indentificar al vehiculo</label>
+            <input type="text" name="nombre">
+
+            <label for="Marca">Marca del vehículo</label>
+            <input type="text">
+<!--Checar esto, apra eliminar el campo y registrar de a un vehiculo-->
+            <label for="Cantidad">Cantidad que se va a registrar</label>
+            <input type="text" name="Cantidad">
+
+            <label for="Granja">Granja a la que pertenece</label>
+            <input type="text" name="Granja">
+
+            <label for="Particularidad"> ¿Tiene algún detalle o particularidad?</label>
+            <input type="text" name="Particularidad">
+
+        </form>
+    </div>
+    <div id='borra' style="visibility: hidden;">
+    
+        <label for="">Ingresa el nombre de el empleado que quieres borrar</label>
+        <input type="text">
+    
+    </div>
     </div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="botones.js" type=""></script>
+    <script src="./funcion.js" type=""></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Personal</title>
@@ -10,11 +10,11 @@
     <div style="background-color: aquamarine;">
     <h1>¿Qué quieres hacer</h1>
 
-    <button onclick="MEB()">Registrar un animal </button>
-    <button onclick="MEB()">Actualizar el registro de un animal</button>
-    <button onclick="MEB()">Borrar el registro de un animal</button>
+    <button onclick="MEB('registro')">Registrar un animal </button>
+    <button onclick="MEB('actualizar')">Actualizar el registro de un animal</button>
+    <button onclick="MEB('borrar')">Borrar el registro de un animal</button>
 
-<div id="agregar" style="visibility: hidden;">
+<div id='agregar' style="visibility: hidden;">
 
     <form action="" >
         <label for="Nombre">Nombre del animal</label>
@@ -40,7 +40,7 @@
 
 </div>
         
-<div id="actualizar" style="visibility: hidden;">
+<div id='actualiza' style="visibility: hidden;">
 
     <form action="">
 
@@ -70,8 +70,8 @@
 
 </div>
     
-<div id="borrar" style="visibility: hidden;">
-    <label for="queAnimal">Ingresa el nombre del animal que quieres actualizar</label>
+<div id='borra' style="visibility: hidden;">
+    <label for="queAnimal">Ingresa el nombre del animal que quieres borrar</label>
     <input type="text">
 </div>
 
