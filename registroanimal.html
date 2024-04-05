@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="botones.js" type=""></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Personal</title>
+</head>
+<body>
+    <div style="background-color: aquamarine;">
+    <h1>¿Qué quieres hacer</h1>
+
+    <button onclick="MEB()">Registrar un animal </button>
+    <button onclick="MEB()">Actualizar el registro de un animal</button>
+    <button onclick="MEB()">Borrar el registro de un animal</button>
+
+<div id="agregar" style="visibility: hidden;">
+
+    <form action="" >
+        <label for="Nombre">Nombre del animal</label>
+        <input name="Nombre" type="text">
+
+        <label for="Tipo">¿Que animal es?</label>
+        <input type="text" name="Tipo">
+
+        <label for="Granja ">¿En qué granja está?</label>
+        <input type="text" name="Granja">
+
+        <label for="Sexo">Sexo del animal</label>
+        <input type="text" name="Sexo">
+
+        <label for="Edad" >¿Qué edad tiene el animal?</label>
+        <input type="text" name="Edad">
+
+        <label for="¿Es caso especial?" >¿Algo peculiar en el animal (enfermedades, malformaciones)</label>
+        <input type="text" name="Caso">
+
+
+    </form>
+
+</div>
+        
+<div id="actualizar" style="visibility: hidden;">
+
+    <form action="">
+
+            <label for="queAnimal">Ingresa el nombre del animal que quieres actualizar</label>
+            <input type="text">
+            <h1>Aspectos que puedes actualizar/cambiar</h1>
+
+            <label for="Nombre">Nombre del animal</label>
+                    <input name="Nombre" type="text">
+
+                    <label for="Tipo">¿Que animal es?</label>
+                    <input type="text" name="Tipo">
+
+                    <label for="Granja ">¿En qué granja está?</label>
+                    <input type="text" name="Granja">
+
+                    <label for="Sexo">Sexo del animal</label>
+                    <input type="text" name="Sexo">
+
+                    <label for="Edad" >¿Qué edad tiene el animal?</label>
+                    <input type="text" name="Edad">
+
+                    <label for="¿Es caso especial?" >¿Algo peculiar en el animal (enfermedades, malformaciones)</label>
+                    <input type="text" name="Caso">
+
+                </form>
+
+</div>
+    
+<div id="borrar" style="visibility: hidden;">
+    <label for="queAnimal">Ingresa el nombre del animal que quieres actualizar</label>
+    <input type="text">
+</div>
+
+    </div>
+</body>
+</html>
