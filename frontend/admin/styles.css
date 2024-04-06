@@ -1,0 +1,237 @@
+.titulo {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #388E3C;
+}
+.boto1{
+    background-color: #4CAF50;
+    height: 35px;
+    width: 165px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 10%;
+    top: 9%;
+}
+.boto2{
+    background-color: #4CAF50;
+    height: 35px;
+    width: 165px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 45%;
+    top: 9%;
+}
+.boto3{
+    background-color: #4CAF50;
+    height: 35px;
+    width: 165px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 80%;
+    top: 9%;
+}
+.fondopersonal{
+    background-color: #4CAF50;
+}
+.divpersonal{
+    background-color: #333;
+    height: 550px;
+    width: 850px;
+    position: absolute;
+    left: 16%;
+    top: 25%;
+    align-content: center;
+    border: solid #444646 8px;
+}
+.letrapersonal{
+    color: white;
+    font-size: x-large;
+}
+.cuadroper{
+    height: 30px;
+    width: 205px;
+    border-radius: 5px;
+    box-shadow:3px 3px 1px #444646;
+    background-color: #626566;
+    border-bottom-style: outset white;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.titulopersonal{
+    background-color: #333;
+    height: 100px;
+    width: 850px;
+    position: absolute;
+    left: 16%;
+    top: 3.5%;
+    align-content: center;
+    border: solid #444646 8px;
+    color: white;
+}
+.regispersonal{
+    width: 400px;
+    height: 500px;
+    background-color: #333;
+    border: solid #444646 8px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0.1%;
+    top: 20%;
+
+}
+.actpersonal{
+    width: 400px;
+    height: 550px;
+    background-color: #333;
+    border: solid #444646 8px;
+    border-radius: 30px;
+    position: absolute;
+    left: 33.5%;
+    top: 20%;
+
+}
+.borrarpersonal{
+    width: 400px;
+    height: 275px;
+    background-color: #333;
+    border: solid #444646 8px;
+    border-radius: 30px;
+    position: absolute;
+    right: 0.1%;
+    top: 20%;
+}
+.letrapersona2{
+    color: white;
+    font-size: medium;
+}
+.cuerpindex{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #388E3C;
+    height: 55px;
+  }
+  
+  .nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    height: 600px;
+    width: 250px;
+    border-right: solid #444646 5px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+.divindex1{
+    width: 245px;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+.divindex2{
+    width: 245px;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+.divindex3{
+    width: 245px;
+    position: absolute;
+    top: 55%;
+    text-align: center;
+}
+.divindex4{
+    width: 245px;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+}
+.divindex5{
+    width: 245px;
+    position: absolute;
+    top: 85%;
+    text-align: center;
+}
+.divindex6{
+    width: 245px;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+}
+.divgrandote{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+}
+.divreg{
+    background-color: #4CAF50;
+    width: 350px;
+    height: 100px;
+    border-radius: 8px;
+}
+.trareg{
+    color: white;
+}
+.imgr1{
+    position: absolute;
+    left: 27%;
+    top: 30%;
+}
+.imgr2{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+.imgr3{
+    position: absolute;
+    left: 16.5%;
+    top: 75%;
+}
+.imgr4{
+    position: absolute;
+    left: 40%;
+    top: 75%;
+}
+.imgr5{
+    position: absolute;
+    left: 63%;
+    top: 75%;
+}
+
+
+
+
+
+
+
+
+
+

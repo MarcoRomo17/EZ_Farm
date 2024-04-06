@@ -1,0 +1,38 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+h1{
+  font-family: Arial, sans-serif;
+  color: #333;
+  
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Estilos de las celdas de encabezado */
+  th {
+    background-color: #4CAF50;
+    color: #f2f2f2 ;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos de las celdas de datos */
+  td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #333;
+  }
+  
+  /* Alternar colores de filas */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
